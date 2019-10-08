@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">budgetThing</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">History</string>
+    <string name="paid">paid</string>
+    <string name="income">income</string>
+    <string name="tab_text_3">Summary</string>
+
+    <string-array name="dialog_single_choice_array">
+        <item>Market</item>
+        <item>Rent</item>
+        <item>Social Stuff</item>
+        <item>Others</item>
+    </string-array>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Where did your money go?"
+       android:textColor="@color/secondaryTextColor"
+       android:gravity="center"
+       android:fontFamily="@font/dancingscript_bold"
+       android:textSize="24sp"
+       android:layout_marginTop="@dimen/textView_margin_top"/>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textColor="@color/secondaryTextColor"
+       android:id="@+id/market_summary_textview"
+       android:text="asdasdasd"
+       android:fontFamily="@font/dancingscript_bold"
+       android:textSize="20sp"
+       android:layout_marginTop="@dimen/textView_margin_top"
+       />
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textColor="@color/secondaryTextColor"
+       android:id="@+id/rent_summary_textview"
+       android:fontFamily="@font/dancingscript_bold"
+       android:textSize="20sp"
+       android:layout_marginTop="@dimen/textView_margin_top"
+       />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textColor="@color/secondaryTextColor"
+       android:id="@+id/socialstuff_summary_textview"
+       android:fontFamily="@font/dancingscript_bold"
+       android:textSize="20sp"
+       android:layout_marginTop="@dimen/textView_margin_top"
+       />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textColor="@color/secondaryTextColor"
+       android:id="@+id/others_summary_textview"
+       android:fontFamily="@font/dancingscript_bold"
+       android:textSize="20sp"
+       android:layout_marginTop="@dimen/textView_margin_top"
+       />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textColor="@color/secondaryTextColor"
+       android:id="@+id/total_summary_textview"
+       android:fontFamily="@font/dancingscript_bold"
+       android:textSize="20sp"
+       android:layout_marginTop="@dimen/textView_margin_top"
+       />
+</LinearLayout>
